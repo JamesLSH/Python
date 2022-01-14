@@ -1,2 +1,3 @@
 # Python
-Doing python coding
+Doing python things
+Making fun with it

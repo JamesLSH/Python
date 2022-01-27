@@ -22,13 +22,25 @@ def rndfun(numlist=[0,1,2,3,4,5,6,7,8,9]):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    hidencode=rndfun()
+    hidennum=rndfun()
     # print('random 4 numbers list is', hidencode)
+    flag=0
+    while flag==0:
+        userinput = input("Please input 4 digits of number: ")
+        if (NumChecking.checkinput(userinput)==0):
+            flag=1
 
-    userinput = input("Please input 4 digits of number: ")
-    NumChecking.checkinput(userinput)
+    print('chosen number is ',hidennum)
+    print('user input number is ', userinput)
+    # userinputlist=[]
+    # userinputlist=userinput.split(' ')
+    # print('userinputlist is ',userinputlist)
+    NumCompare.compare(userinputlist,hidennum,0,0)
+
+
+
+
     # NumCompare.compare(userinput,hidencode)
-
     #Gamersname = 'John'
     #print(Gamersname[3])
 

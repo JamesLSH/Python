@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # userinputlist=[]
     # userinputlist=userinput.split(' ')
     # print('userinputlist is ',userinputlist)
-    NumCompare.compare(userinputlist,hidennum,0,0)
+    NumCompare.compare(userinput,hidennum,0,0)
 
 
 

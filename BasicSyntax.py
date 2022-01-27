@@ -19,7 +19,6 @@ def afunction(num3,ary=[1,2,5]):
 def rndfun(numlist=[0,1,2,3,4,5,6,7,8,9]):
 
     choosednum = random.sample(numlist,4)
-    print(choosednum)
     rndlist.append(choosednum)
     return rndlist
 
@@ -28,8 +27,8 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     #ad1(9,3)
     rndlist = []
-    #print(afunction(3))
-    print(rndfun())
+    print('afunction is ',afunction(3))
+    print('random 4 numbers list is',rndfun())
     #Gamersname = 'John'
     #print(Gamersname[3])
 

@@ -35,8 +35,10 @@ if __name__ == '__main__':
     # userinputlist=[]
     # userinputlist=userinput.split(' ')
     # print('userinputlist is ',userinputlist)
-    NumCompare.compare(userinput,hidennum,0,0)
+    # NumCompare.compare(userinput,hidennum,0,0)
 
+def testFun():
+    printf("it's just empty function")
 
 
 

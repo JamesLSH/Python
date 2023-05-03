@@ -38,7 +38,7 @@ if __name__ == '__main__':
     # NumCompare.compare(userinput,hidennum,0,0)
 
 def testFun():
-    printf("it's just empty function")
+    print(f"it's just empty function")
 
 
 
